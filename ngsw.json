@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1592568394774,
+  "timestamp": 1592576972414,
   "index": "/economy-mocup/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/economy-mocup/favicon.ico",
         "/economy-mocup/index.html",
-        "/economy-mocup/main-es2015.f083da40eac511c73913.js",
-        "/economy-mocup/main-es5.f083da40eac511c73913.js",
+        "/economy-mocup/main-es2015.527f153192562038d9d3.js",
+        "/economy-mocup/main-es5.527f153192562038d9d3.js",
         "/economy-mocup/manifest.webmanifest",
         "/economy-mocup/polyfills-es2015.f332a089ad1600448873.js",
         "/economy-mocup/polyfills-es5.177e85a9724683782539.js",
         "/economy-mocup/runtime-es2015.0dae8cbc97194c7caed4.js",
         "/economy-mocup/runtime-es5.0dae8cbc97194c7caed4.js",
-        "/economy-mocup/styles.b720f2db7a7f47bc1bfb.css"
+        "/economy-mocup/styles.913c849082f67c0e17a1.css"
       ],
       "patterns": []
     },
@@ -33,7 +33,11 @@
         "/economy-mocup/assets/icons/icon-384x384.png",
         "/economy-mocup/assets/icons/icon-512x512.png",
         "/economy-mocup/assets/icons/icon-72x72.png",
-        "/economy-mocup/assets/icons/icon-96x96.png"
+        "/economy-mocup/assets/icons/icon-96x96.png",
+        "/economy-mocup/materialdesignicons-webfont.04f70e62a74699b224f2.eot",
+        "/economy-mocup/materialdesignicons-webfont.7f746f23a68308f7fdf4.woff",
+        "/economy-mocup/materialdesignicons-webfont.a7629910d13716b7080c.ttf",
+        "/economy-mocup/materialdesignicons-webfont.bc2c1f6ad0c7961368c7.woff2"
       ],
       "patterns": []
     }
@@ -49,15 +53,19 @@
     "/economy-mocup/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/economy-mocup/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/economy-mocup/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/economy-mocup/index.html": "8c00de7057ce5b015a9a6faa6090059ec92342d6",
-    "/economy-mocup/main-es2015.f083da40eac511c73913.js": "ae6098d69e9da18d4a512646eacf4b539b5e315e",
-    "/economy-mocup/main-es5.f083da40eac511c73913.js": "a966a587d4810f2ea210bb599685aea8cd18e3b3",
+    "/economy-mocup/index.html": "acd70f7bcbb64e6a3a499d4559501be59b20dff5",
+    "/economy-mocup/main-es2015.527f153192562038d9d3.js": "e939ab711b82c806cc288af1d132e47d43bdbe94",
+    "/economy-mocup/main-es5.527f153192562038d9d3.js": "a142651eb5e67c807abc4bdf97fba2adb6981791",
     "/economy-mocup/manifest.webmanifest": "54701091246377cbd8b4c0022a30cf9098606dd9",
+    "/economy-mocup/materialdesignicons-webfont.04f70e62a74699b224f2.eot": "eec8fd6ce4f197a837c8d3c7f711fcca4fe64b23",
+    "/economy-mocup/materialdesignicons-webfont.7f746f23a68308f7fdf4.woff": "5a5baeb2433ba1a5772337d0007553884e7c2996",
+    "/economy-mocup/materialdesignicons-webfont.a7629910d13716b7080c.ttf": "80a431d6d49861d655009e9491409282d2559591",
+    "/economy-mocup/materialdesignicons-webfont.bc2c1f6ad0c7961368c7.woff2": "07b7375770ca6989fdf9872a960727743bd9da5d",
     "/economy-mocup/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/economy-mocup/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
     "/economy-mocup/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/economy-mocup/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/economy-mocup/styles.b720f2db7a7f47bc1bfb.css": "6dda26306e8fa9496479244ab510cf549a12ba43"
+    "/economy-mocup/styles.913c849082f67c0e17a1.css": "8f223e466112b90834aa77579b79220db9cbca30"
   },
   "navigationUrls": [
     {
