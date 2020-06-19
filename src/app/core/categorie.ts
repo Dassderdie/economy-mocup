@@ -4,4 +4,5 @@ export interface Category {
     name: string;
     description: string;
     articles: Article[];
+    icon: string;
 }

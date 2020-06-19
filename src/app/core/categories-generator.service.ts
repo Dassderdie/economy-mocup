@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Category } from './categorie';
 import { loremIpsum } from 'lorem-ipsum';
 import { Article, articleImgDimensions } from './article';
+import { getRandomIcon } from '../shared/icons/get-random-icon';
 
 @Injectable({
     providedIn: 'root',
@@ -31,6 +32,7 @@ export class CategoriesGeneratorService {
                 suffix: '',
                 format: 'html',
             }),
+            icon: getRandomIcon(),
             articles,
         };
     }

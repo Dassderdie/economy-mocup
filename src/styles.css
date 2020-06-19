@@ -1,6 +1,50 @@
 /* import bootstrap for use in whole application */
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+@import '@mdi/font/css/materialdesignicons.css';
+/* mdi icons (https://dev.materialdesignicons.com/getting-started/bootstrap) */
+.alert.mdi::before,
+.breadcrumb .mdi::before,
+.btn.mdi::before,
+.card-title.mdi::before,
+.card-subtitle.mdi::before,
+.card-link.mdi::before,
+.dropdown-item.mdi::before,
+.list-group-item.mdi::before,
+.nav-link.mdi::before {
+    font-size: 1.25em;
+    line-height: initial;
+    position: relative;
+    top: 0.09rem;
+}
+.alert.mdi::before,
+.breadcrumb .mdi:not(:empty)::before,
+.btn.mdi:not(:empty)::before,
+.card-title.mdi:not(:empty)::before,
+.card-subtitle.mdi:not(:empty)::before,
+.card-link.mdi:not(:empty)::before,
+.dropdown-item.mdi:not(:empty)::before,
+.nav-link.mdi:not(:empty)::before {
+    margin-right: 0.25rem;
+}
+.list-group-item.mdi:not(:empty)::before {
+    margin-right: 0.5rem;
+}
+.dropdown-item.mdi:not(:empty)::before {
+    margin-left: -0.75rem;
+}
+.alert.mdi::before,
+.list-group-item.mdi:not(:empty)::before {
+    margin-left: -0.5rem;
+}
+.modal-title.mdi::before {
+    font-size: 1.5em;
+    line-height: 0.5;
+    position: relative;
+    top: 0.26rem;
+    margin-right: 0.5rem;
+}
+
 /* make carousel stepper more visible */
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='0f0f0f' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
