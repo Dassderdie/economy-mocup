@@ -1,0 +1,18 @@
+<div class="card" style="height: 25rem; overflow-y: hidden;">
+    <img
+        [src]="article.imageSrc"
+        class="card-img-top"
+        [style.min-width]="imgDimensions.width + 'px'"
+        [style.min-height]="imgDimensions.height + 'px'"
+    />
+    <div class="card-body">
+        <h5 class="card-title">{{ article.title }}</h5>
+        <p class="card-text" [innerHTML]="article.description"></p>
+    </div>
+    <footer *ngIf="article.publisher as publisher" class="blockquote-footer">
+        <small class="text-muted">
+            {{ publisher.author }}
+            <cite title="Source Title">{{ publisher.name }}</cite>
+        </small>
+    </footer>
+</div>

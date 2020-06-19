@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,17 +8,25 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { CategoriesComponent } from './pages/categories/categories.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { ArticleCardComponent } from './shared/article-card/article-card.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
-    declarations: [AppComponent, CategoriesComponent, LandingPageComponent],
+    declarations: [
+        AppComponent,
+        CategoriesComponent,
+        LandingPageComponent,
+        ArticleCardComponent,
+    ],
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         AppRoutingModule,
         ServiceWorkerModule.register('ngsw-worker.js', {
             enabled: environment.production,
         }),
+        CarouselModule.forRoot(),
     ],
-    providers: [],
     bootstrap: [AppComponent],
 })
 export class AppModule {}
