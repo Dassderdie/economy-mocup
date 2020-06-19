@@ -1,1 +1,35 @@
-<a routerLink="/categories">-> Categories</a>
+<div class="jumbotron">
+    <h1 class="display-4">{{ company.name }}</h1>
+    <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <hr class="my-4" />
+    <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+    </p>
+    <a class="btn btn-primary btn-lg" routerLink="/categories" role="button">
+        Probiere es aus
+    </a>
+</div>
+
+<h2>So funktioniert es:</h2>
+<div class="jumbotron">
+    <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <hr class="my-4" />
+    <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+    </p>
+    <a class="btn btn-primary btn-lg" routerLink="/categories" role="button">
+        Probiere es aus
+    </a>
+</div>
+
+<h2>Das sind unsere Partner:</h2>
+
+<a href="mailto: {{ company.newsletter }}">{{ company.newsletter }}</a>
