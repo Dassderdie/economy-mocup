@@ -1,4 +1,4 @@
 export const companyData = {
-    name: 'Name',
-    newsletter: 'newsletter@gmx.de',
+    name: 're!news',
+    newsletter: 're!news@gmx.de',
 };
