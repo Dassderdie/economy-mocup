@@ -115,10 +115,6 @@
                             "devServerTarget": "economy-mockup:serve:production"
                         }
                     }
-                },
-                "deploy": {
-                    "builder": "angular-cli-ghpages:deploy",
-                    "options": {}
                 }
             }
         }
