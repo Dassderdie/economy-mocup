@@ -9,7 +9,8 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "lint:fix": "ng lint --fix && npm run prettier",
-        "prettier": "prettier --ignore-path .gitignore --loglevel warn --write \"./**/*.{ts,json,js,css,html,angular}\""
+        "prettier": "prettier --ignore-path .gitignore --loglevel warn --write \"./**/*.{ts,json,js,css,html,angular}\"",
+        "deploy": "ng build --prod --base-href=/economy-mocup/"
     },
     "prettier": {
         "singleQuote": true,
