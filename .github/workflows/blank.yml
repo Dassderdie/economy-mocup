@@ -5,6 +5,7 @@ on:
     branches:
       - master
 jobs:
+  # From https://medium.com/better-programming/build-and-deploy-angular-apps-in-github-pages-using-github-actions-d6da0efe293d
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -28,4 +29,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist/economy-mocup
+        FOLDER: dist
