@@ -34,7 +34,7 @@ export class CategoriesGeneratorService {
         };
     }
 
-    private generateRandomArticle(): Article {
+    public generateRandomArticle(): Article {
         const id = Math.round(Math.random() * 100);
         return {
             id,

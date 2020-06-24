@@ -1,0 +1,12 @@
+<h1>Ergebnisse für: {{ searchString }}</h1>
+<hr />
+<div class="card-columns">
+    <span *ngIf="articles.length <= 0" class="text-muted">
+        Keine Ergebnisse
+    </span>
+    <app-article-card
+        *ngFor="let article of articles"
+        [article]="article"
+        height="auto"
+    ></app-article-card>
+</div>

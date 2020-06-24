@@ -10,6 +10,8 @@ import { CategoriesComponent } from './pages/categories/categories.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { ArticleCardComponent } from './shared/article-card/article-card.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { ResultsComponent } from './pages/results/results.component';
+import { DisplayCategoriesComponent } from './shared/display-categories/display-categories.component';
 
 @NgModule({
     declarations: [
@@ -17,6 +19,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
         CategoriesComponent,
         LandingPageComponent,
         ArticleCardComponent,
+        ResultsComponent,
+        DisplayCategoriesComponent,
     ],
     imports: [
         BrowserModule,

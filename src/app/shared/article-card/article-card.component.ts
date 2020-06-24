@@ -8,6 +8,7 @@ import { Article, articleImgDimensions } from 'src/app/core/article';
 })
 export class ArticleCardComponent {
     @Input() article: Article;
+    @Input() height = 'auto';
     // for use in template
     public imgDimensions = articleImgDimensions;
 }
