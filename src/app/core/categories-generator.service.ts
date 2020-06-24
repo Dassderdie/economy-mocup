@@ -11,21 +11,18 @@ export class CategoriesGeneratorService {
     public generateCategories(amount: number): Category[] {
         const categories = [];
         for (let i = 0; i < amount; i++) {
-            categories.push(this.generateRandomCategory(10));
+            categories.push(this.generateRandomCategory(i + 1, 10));
         }
         return categories;
     }
 
-    private generateRandomCategory(amount: number): Category {
+    private generateRandomCategory(id: number, amount: number): Category {
         const articles = [];
         for (let i = 0; i < amount; i++) {
             articles.push(this.generateRandomArticle());
         }
         return {
-            name: loremIpsum({
-                units: 'word',
-                suffix: '',
-            }),
+            name: `Kategorie ${id}`,
             description: loremIpsum({
                 count: 1,
                 units: 'paragraph',
